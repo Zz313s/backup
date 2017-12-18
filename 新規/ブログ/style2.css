@@ -1,0 +1,131 @@
+
+.logo{
+    padding:15px 10px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+header{
+    margin-top: 110px;
+    width: 100%;
+    height:50px;
+    background-color:black;
+    color:white;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+    color:white;
+    font-size:14px;
+    padding-left: 0;
+}
+
+header ul li{
+    float:left;
+}
+
+header a{
+    display: block;
+    width:150px;
+    height:50px;
+    color:white;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color:gainsboro;
+}
+
+main{
+    height: 970px;
+}
+
+main h1{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+/*時計*/
+.fa-clock-o:before {
+    content: "\f017";
+    color:#F1C5B4;
+    padding-right: 5px;
+}
+
+.main{
+    width:70%;
+    height: 100%;
+    float:left;
+}
+
+.menu{
+    float:left;    
+    width: 30%;
+    height:auto;
+    font-size:15px;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    display: block;
+    background-color:gainsboro;
+}
+
+h1{
+    color:black;
+    border-left:5px solid black;
+    border-bottom: 2px solid black;
+    width:1250px;
+}
+
+h2{
+    border-bottom: 2px dotted gray;
+}
+
+.nakami{
+    clear: both;
+    float:left;
+    text-align: center;
+    background-color:gainsboro;
+    width: 1300px;
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.na{
+    padding: 20px 12px;
+    float:left;
+}
+
+.nakami a{
+    color:black;
+    text-decoration: none;
+}
+
+.nakami a:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+.nakami a img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    -moz-opacity:0.6;
+}
+
+footer{
+    clear: both;
+    width:100%;
+    height:60px;
+    background-color:black;
+    color:white;
+    bottom: 0;
+    text-align:center;
+    line-height:60px;
+}

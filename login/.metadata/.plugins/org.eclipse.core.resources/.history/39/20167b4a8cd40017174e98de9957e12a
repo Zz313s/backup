@@ -1,0 +1,5 @@
+package lcom.internousdev.login.action;
+
+public class LoginAction {
+
+}

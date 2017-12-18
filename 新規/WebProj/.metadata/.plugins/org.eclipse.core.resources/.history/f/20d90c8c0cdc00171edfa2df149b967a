@@ -1,0 +1,19 @@
+package com.internousdev.webproj3.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.nternousdev.webproj3.dto.HelloStrutsDAO;
+import com.internousdev.webproj3.util.DBConnector;
+import com.internousdev.webproj3.util.DBCpmmector;
+
+public class HelloStrutsDAO {
+
+	public HelloStruts select(){
+		DBConnector db =new DBConnector():
+		Connection con =db.getConnection();:
+	}
+
+}
